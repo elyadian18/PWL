@@ -21,9 +21,9 @@
     <?php
     if (isset($_GET['pesan-login'])) {
         if ($_GET['pesan-login'] == "gagal") {
-            echo ("Yah, loginnya gagal! username dan password kamu salah");
+            echo ("Loginnya gagal! username dan password tidak terdaftar");
         } else if ($_GET['pesan-login'] == "logout") {
-            echo ("Kamu berhasi logout. Sampai jumpa lagi, ya!");
+            echo ("Logout berhasil!");
         }
     }
     ?>
